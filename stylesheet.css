@@ -1,0 +1,380 @@
+
+	#header
+	{
+		height:250px;
+		width:100px;
+		background-color:#0a6dbb;
+		margin-left:10px;
+		margin-right:10px;
+		position:fixed;
+		float:top;
+		margin-top:-300px;
+		margin-bottom:5px solid white;
+		border-right:900px solid white;
+		border-top:10px solid white;
+		z-index:10;
+	}
+
+	#mail
+	{
+		display:inline-block;
+		font-family:Stencil;
+		color:#0a6dbb;
+		margin-left:480px;
+		position:fixed;
+		margin-top:142px;
+	}
+
+	#names
+	{
+	margin-left:120px;
+	color:#2a0094;
+	font-family:Stencil;
+	font-size:50px;
+	display:inline-block;
+	margin-top:100px;
+	position:fixed;
+	z-index:1;
+	}
+
+	#dev
+	{
+		margin-top:163px;
+		margin-left:35px;
+		font-size:30px;
+		color:black;
+	}
+
+	#one
+	{
+		height:2px;
+		width:1000px;
+		background-color:#0a6dbb;
+		margin-top:-48px;
+		position:relative;
+		z-index:10;
+	}
+
+
+	#two
+	{
+		height:2px;
+		width:1000px;
+		background-color:#0a6dbb;
+		margin-top:2px;
+		position:relative;
+		z-index:10;
+	}
+
+	#three
+	{
+		height:2px;
+		width:1000px;
+		background-color:#0a6dbb;
+		margin-top:2px;
+		position:relative;
+		z-index:10;
+	}
+
+	span
+	{
+	color:white;
+	 font-size:90px;
+	}
+
+	.left
+	{
+		border-radius:10px;
+		background-color:#0a6dbb;
+		width:50px;
+		height:350px;
+		position:fixed;
+		margin-top:-15px;
+		float:left;
+		margin-left:10px;
+	}
+
+	#inleft
+	{
+		height:340px;
+		width:160px;
+		margin-left:60px;
+		position:fixed;
+		background-color:#f7f7f7;
+		border-radius:10px;
+		margin-top:-15px;
+		border:10px solid #f7f7f7;
+		float:left;
+		}
+
+	#strength
+	{
+		position:relative;
+		margin-left:20px;
+		margin-top:5px;
+		font-family:Aldhabi;
+		font-size:40px;
+		
+	}	
+
+	#stre
+	{
+		font-family:Aldhabi;
+		margin-top:-50px;
+		margin-left:-20px;
+	}
+
+	#ed
+	{
+	height:40px;
+	width:600px;
+	background-color:black;
+	color:white;
+	margin-top:300px;
+	margin-left:275px;
+	border-radius:10px;
+	font-size:25px;
+	}
+
+	#prof
+	{
+		position:relative;
+		margin-left:210px;
+	}
+	
+	#profile
+	{
+		position:relative;
+		height:100px;
+		width:720px;
+		margin-top:-12px;
+		background-color:#f7f7f7;
+		border-radius:10px;
+		border:10px solid white;
+		border-radius:10px;
+		color:black;
+		font-size:15px;
+	}
+
+
+
+	#skillt
+	{
+		height:40px;
+		width:610px;
+		background-color:black;
+		color:white;
+		margin-left:275px;
+		margin-top:140px;
+		border-radius:10px;
+		}
+		
+	#sk
+	{
+		font-size:25px;
+		margin-left:270px;
+		position:relative;
+	}
+	
+	#skills
+	{
+		height:150px;
+		width:720px;
+		background-color:#f7f7f7;
+		color:black;
+		position:relative;
+		margin-top:-10px;
+		border:10px solid white;
+		font-size:15px;
+	}
+
+	#education
+	{
+		height:40px;
+		width:610px;
+		background-color:black;
+		border-radius:10px;
+		margin-top:180px;
+		margin-left:275px;
+		color:white;
+		font-size:25px;
+	}
+	#educ
+	{
+		position:relative;
+		margin-left:240px;
+	}
+	
+	#school
+	{
+		height:590px;
+		width:720px;
+		background-color:#f7f7f7;
+		position:relative;
+		color:black;
+		font-size:15px;
+		margin:10px solid white;
+		margin-left:10px;
+		margin-top:-5px;
+	}
+	
+	#autodidact
+	{
+		background-color:#4d4e53;
+		position:relative;
+		height:25px;
+		width:200px;
+		border-radius:10px;
+		color:white;
+		padding:5px;
+		margin-left:5px;
+	}
+	
+	#didact
+	{
+		margin-left:20px;
+	}
+	
+	#listdidact
+	{
+		margin-left:20px;
+	}
+	
+	#duration
+	{
+		border-radius:10px;
+		position:relative;
+		height:25px;
+		width:200px;
+		color:white;
+		background-color:#4d4e53;
+		padding:5px;
+		border-left:200px;
+		margin-left:5px;
+		}
+	
+	#dip
+	{
+		margin-left:20px;
+	}
+	
+	#name
+	{
+		font-size:20px;
+		margin-left:30px;
+	}
+	
+	#foundation
+	{
+	font-size:15px;
+	margin-left:40px;
+	}
+	
+	#level
+	{
+		border-radius:10px;
+		position:relative;
+		height:25px;
+		width:200px;
+		color:white;
+		background-color:#4d4e53;
+		padding:5px;
+		margin-left:5px;
+	}
+	
+	#As
+	{
+		margin-left:20px;
+	}
+	
+	#khan
+	{
+		font-size:20px;
+		margin-left:30px;
+	}
+	
+	#Os
+	{
+		border-radius:10px;
+		position:relative;
+		height:25px;
+		width:200px;
+		color:white;
+		background-color:#4d4e53;
+		padding:5px;
+		margin-left:5px;
+	}
+	
+	#olevel
+	{
+		margin-left:20px;
+		font-size:20px;
+	}
+	
+	#london
+	{
+		font-size:20px;
+		margin-left:30px;
+	}
+	
+	#aboutme
+	{
+		border-radius:5px;
+		height:320px;
+		width:220px;
+		background-color:black;
+		float:right;
+		position:fixed;
+		margin-left:1020px;
+		margin-top:-450px;
+		clear:left;
+		color:white;
+		border-radius:10px;
+	}
+
+	#me
+	{
+		background-color:#0a6dbb;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-top:10px;
+		margin:3px;
+	}
+
+	 #stuff
+	 {
+		height:200px;
+		width:213px;
+		background-color:black;
+		position:relative;
+		margin:3px;
+		margin-top:-14px;
+	 }
+	 
+	 #ook
+	 {
+		font-size:18px;
+		margin:5px;
+		margin-top:20px;
+	 }
+	 
+	 #fbandt
+	 {
+		height:65px;
+		width:214px;
+		background-color:black;
+		position:relative;
+		margin:2px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+	 }
+	 
+	img
+	{
+	 height:50px;
+	 width:50px;
+	 position:relative;
+	 margin-left:30px;
+	 margin-top:5px;
+	 }
+	 
