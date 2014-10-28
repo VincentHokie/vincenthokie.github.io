@@ -8,7 +8,7 @@
 		margin-right:10px;
 		position:fixed;
 		float:top;
-		margin-top:-300px;
+		margin-top:-25px;
 		margin-bottom:5px solid white;
 		border-right:900px solid white;
 		border-top:10px solid white;
@@ -87,24 +87,26 @@
 		border-radius:10px;
 		background-color:#0a6dbb;
 		width:50px;
-		height:350px;
+		height:380px;
 		position:fixed;
-		margin-top:-15px;
+		top:280px;
 		float:left;
-		margin-left:10px;
+		left:20px;
+		z-index:9;
 	}
 
 	#inleft
 	{
 		height:340px;
 		width:160px;
-		margin-left:60px;
+		float:left;
 		position:fixed;
+		left:70px;
+		top:285px;
 		background-color:#f7f7f7;
 		border-radius:10px;
-		margin-top:-15px;
 		border:10px solid #f7f7f7;
-		float:left;
+		z-index:9;
 		}
 
 	#strength
@@ -126,54 +128,68 @@
 
 	#ed
 	{
-	height:40px;
-	width:600px;
-	background-color:black;
-	color:white;
-	margin-top:300px;
+	height:170px;
+	width:740px;
+	position:relative;
+	background-color:white;
+	top:265px;
 	margin-left:275px;
 	border-radius:10px;
-	font-size:25px;
 	}
 
 	#prof
 	{
 		position:relative;
-		margin-left:210px;
+		color:white;
+		height:40px;
+		width:405px;
+		background-color:black;
+		font-size:25px;
+		border-radius:10px;
+		padding-left:210px;
+		padding-top:5px;
 	}
 	
 	#profile
 	{
 		position:relative;
 		height:100px;
-		width:720px;
-		margin-top:-12px;
+		width:700px;
+		top:-20px;
 		background-color:#f7f7f7;
 		border-radius:10px;
 		border:10px solid white;
 		border-radius:10px;
 		color:black;
 		font-size:15px;
+		padding:10px;
+		border-bottom:20px solid white;
 	}
 
 
 
 	#skillt
 	{
-		height:40px;
-		width:610px;
-		background-color:black;
+		height:245px;
+		width:740px;
+		background-color:white;
 		color:white;
-		margin-left:275px;
-		margin-top:140px;
+		position:relative;
+		left:275px;
+		top:270px;
 		border-radius:10px;
 		}
 		
 	#sk
 	{
 		font-size:25px;
-		margin-left:270px;
 		position:relative;
+		background-color:black;
+		border-radius:10px;
+		padding-left:270px;
+		padding-top:5px;
+		height:40px;
+		width:355px;
 	}
 	
 	#skills
@@ -183,18 +199,18 @@
 		background-color:#f7f7f7;
 		color:black;
 		position:relative;
-		margin-top:-10px;
+		margin-top:-15px;
 		border:10px solid white;
 		font-size:15px;
 	}
 
 	#education
 	{
-		height:40px;
-		width:610px;
-		background-color:black;
+		height:665px;
+		width:735px;
+		background-color:white;
 		border-radius:10px;
-		margin-top:180px;
+		margin-top:270px;
 		margin-left:275px;
 		color:white;
 		font-size:25px;
@@ -202,20 +218,28 @@
 	#educ
 	{
 		position:relative;
-		margin-left:240px;
+		background-color:black;
+		color:white;
+		border-radius:10px;
+		height:40px;
+		width:370px;
+		padding-top:5px;
+		padding-left:250px;
 	}
 	
 	#school
 	{
-		height:590px;
+		height:610px;
 		width:720px;
 		background-color:#f7f7f7;
 		position:relative;
 		color:black;
 		font-size:15px;
-		margin:10px solid white;
-		margin-left:10px;
-		margin-top:-5px;
+		border:10px solid white;
+		border-top:30px solid white;
+		border-left:10px solid white;
+		margin-top:-25px;
+		padding-top:5px;
 	}
 	
 	#autodidact
@@ -322,59 +346,111 @@
 		border-radius:5px;
 		height:320px;
 		width:220px;
-		background-color:black;
-		float:right;
-		position:fixed;
+		background-color:white;
 		margin-left:1020px;
-		margin-top:-450px;
+		margin-top:-1125px;
 		clear:left;
 		color:white;
 		border-radius:10px;
 	}
-
+	
 	#me
 	{
+		position:relative;
+		height:300px;
 		background-color:#0a6dbb;
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
-		border-top:10px;
-		margin:3px;
+		border-radius:10px;
+		margin-top:-15px;
+		margin-left:5px;
+		margin-right:5px;
+		padding-left:60px;
+		
 	}
 
 	 #stuff
 	 {
 		height:200px;
-		width:213px;
-		background-color:black;
+		width:200px;
+		background-color:white;
+		color:black;
 		position:relative;
-		margin:3px;
-		margin-top:-14px;
+		margin-top:-270px;
+		margin-left:10px;
+		padding-top:10px;
 	 }
 	 
 	 #ook
 	 {
-		font-size:18px;
+		font-size:16x;
 		margin:5px;
-		margin-top:20px;
 	 }
 	 
-	 #fbandt
+	 a
 	 {
-		height:65px;
-		width:214px;
-		background-color:black;
-		position:relative;
-		margin:2px;
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;
+	 text-decoration:none;
 	 }
 	 
-	img
-	{
-	 height:50px;
-	 width:50px;
+	 a#faceb
+	 {
+	 border-radius:30px;
+	 border:3px solid white;
+	 padding:5px;
+	 padding-left:10px;
+	 padding-right:10px;
 	 position:relative;
-	 margin-left:30px;
-	 margin-top:5px;
+	 left:30px;
+	 color:black;
+	 font-family:Tahoma;
+	 }
+	 
+	 a#faceb:link
+	 {
+		color:black;
+		boder-color:white;
+	 }
+	 
+	 a#faceb:hover
+	 {
+		border-color:#3B5998;
+		color:#3B5998;
+	 }
+	 
+	 a#faceb:visited
+	 {
+		border-color:#3B5998;
+		color:#3B5998;
+	 }
+	 a#twirra
+	 {
+	 display:inline;
+	 position:relative;
+	 left:40px;
+	 font-size:20px;
+	 border-radius:30px;
+	 border:3px solid white;
+	 padding-left:10px;
+	 padding-right:10px;
+	 padding-top:3px;
+	 padding-bottom:3px;
+	 color:black;
+	 font-family:Gotham;
+	 }
+	 
+	 a#twirra:link
+	 {
+	 color:black;
+	 border-color:white;
+	 }
+	 
+	 a#twirra:hover
+	 {
+	 color:#4099FF;
+	 border-color:#4099FF;
+	 }
+	 
+	 a#twirra:visited
+	 {
+		color:#4099FF;
+	 border-color:#4099FF;
 	 }
 	 
