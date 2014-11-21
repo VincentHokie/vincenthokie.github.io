@@ -1,4 +1,9 @@
-
+		
+	body
+	{
+	overflow-x:scroll;
+	}
+	
 	#header
 	{
 		height:250px;
@@ -15,330 +20,230 @@
 		z-index:10;
 	}
 
-	#mail
-	{
-		display:inline-block;
-		font-family:Stencil;
-		color:#0a6dbb;
-		margin-left:480px;
-		position:fixed;
-		margin-top:142px;
-	}
-
 	#names
 	{
-	margin-left:120px;
+	position:relative;
+	left:90px;
 	color:#2a0094;
-	font-family:Stencil;
 	font-size:50px;
-	display:inline-block;
-	margin-top:100px;
-	position:fixed;
-	z-index:1;
+	display:inline;
 	}
 
 	#dev
 	{
-		margin-top:163px;
-		margin-left:35px;
+		background-color:#0a6dbb;
+		position:relative;
+		height:226px;
+		width:70px;
 		font-size:30px;
 		color:black;
+		border-radius:10px;
+		left:-50px;
+		bottom:115px;
+		padding-top:110px;
 	}
-
-	#one
+	
+	#threelines
 	{
-		height:2px;
-		width:1000px;
-		background-color:#0a6dbb;
-		margin-top:-48px;
-		position:relative;
-		z-index:10;
+	position:relative;
+	left:18px;
+	bottom:67px;
 	}
-
-
-	#two
+	
+	.lines
 	{
-		height:2px;
-		width:1000px;
-		background-color:#0a6dbb;
-		margin-top:2px;
-		position:relative;
-		z-index:10;
-	}
-
-	#three
-	{
-		height:2px;
-		width:1000px;
-		background-color:#0a6dbb;
-		margin-top:2px;
-		position:relative;
-		z-index:10;
+	height:2px;
+	width:1000px;
+	background-color:#0a6dbb;
+	position:relative;
+	bottom:50px;
+	margin-top:2px;
 	}
 
 	span
 	{
 	color:white;
-	 font-size:90px;
+	 font-size:100px;
 	}
 
+	.leftest
+	{
+		position:fixed;
+		width:240px;
+		top:250px;
+		height:390px;
+		float:left;
+		z-index:9;
+		border-radius:10px;
+	}
 	.left
 	{
 		border-radius:10px;
 		background-color:#0a6dbb;
 		width:50px;
 		height:380px;
-		position:fixed;
-		top:280px;
-		float:left;
-		left:20px;
-		z-index:9;
+		position:relative;
+		left:10px;
 	}
-
-	#inleft
+	
+	.lists
 	{
-		height:340px;
-		width:160px;
-		float:left;
-		position:fixed;
-		left:70px;
-		top:285px;
-		background-color:#f7f7f7;
-		border-radius:10px;
-		border:10px solid #f7f7f7;
-		z-index:9;
-		}
-
+	color:black;
+	text-align:left;
+	font-size:20px;
+	}
+	
+	.lists li
+	{
+	position:relative;
+	padding-top:7px;
+	left:-10px;
+	}
+	
 	#strength
 	{
-		position:relative;
-		margin-left:20px;
-		margin-top:5px;
-		font-family:Aldhabi;
-		font-size:40px;
-		
-	}	
-
-	#stre
+	position:relative;
+	background-color:black;
+	color:white;
+	border-radius:10px;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	height:40px;
+	width:170px;
+	padding:5px;
+	left:70px;
+	bottom:390px;
+	}
+	
+	#inleft
 	{
-		font-family:Aldhabi;
-		margin-top:-50px;
-		margin-left:-20px;
+		height:280px;
+		width:180px;
+		position:relative;
+		background-color:#f7f7f7;
+		border-radius:10px;
+		left:70px;
+		bottom:395px;
+		}
+
+	.pse
+	{
+		height:1350px;
+		width:880px;
+		position:relative;
+		right:150px;
+		top:225px;
+		border-radius:10px;
 	}
 
-	#ed
+	.personalprof
 	{
-	height:170px;
+	height:180px;
 	width:740px;
-	position:relative;
-	background-color:white;
-	top:265px;
-	margin-left:275px;
+	top:27px;
 	border-radius:10px;
 	}
-
-	#prof
+	
+	.profile
+	{
+		color:white;
+		text-align:center;
+		font-weight:bold;
+		font-size:25px;
+		background-color:black;
+		border-radius:10px;
+		position:relative;
+		height:40px;
+		width:750px;
+	}
+	
+	.align
 	{
 		position:relative;
-		color:white;
-		height:40px;
-		width:405px;
-		background-color:black;
-		font-size:25px;
-		border-radius:10px;
-		padding-left:210px;
-		padding-top:5px;
+		left:50px;
+	}
+	
+	.infodiv
+	{
+		position:relative;
+		background-color:#f7f7f7;
+		color:black;
+		padding:20px;
+		font-size:15px;
+		left:7px;
 	}
 	
 	#profile
 	{
-		position:relative;
-		height:100px;
+		left:20px;
+		height:120px;
 		width:700px;
-		top:-20px;
-		background-color:#f7f7f7;
-		border-radius:10px;
-		border:10px solid white;
-		border-radius:10px;
-		color:black;
-		font-size:15px;
-		padding:10px;
-		border-bottom:20px solid white;
 	}
 
-
-
-	#skillt
+	.skilldiv
 	{
-		height:245px;
+		top:40px;
 		width:740px;
-		background-color:white;
-		color:white;
-		position:relative;
-		left:275px;
-		top:270px;
+		height:250px;
 		border-radius:10px;
-		}
-		
-	#sk
-	{
-		font-size:25px;
-		position:relative;
-		background-color:black;
-		border-radius:10px;
-		padding-left:270px;
-		padding-top:5px;
-		height:40px;
-		width:355px;
 	}
 	
-	#skills
+	.skills
 	{
-		height:150px;
+		height:235px;
 		width:720px;
-		background-color:#f7f7f7;
-		color:black;
-		position:relative;
-		margin-top:-15px;
-		border:10px solid white;
-		font-size:15px;
+		left:10px;
 	}
 
-	#education
+	.education
 	{
-		height:665px;
+		height:860px;
 		width:735px;
-		background-color:white;
 		border-radius:10px;
-		margin-top:270px;
-		margin-left:275px;
-		color:white;
-		font-size:25px;
-	}
-	#educ
-	{
 		position:relative;
-		background-color:black;
-		color:white;
-		border-radius:10px;
-		height:40px;
-		width:370px;
-		padding-top:5px;
-		padding-left:250px;
+		top:100px;
 	}
-	
+
 	#school
 	{
-		height:610px;
+		height:840px;
 		width:720px;
-		background-color:#f7f7f7;
-		position:relative;
-		color:black;
-		font-size:15px;
-		border:10px solid white;
-		border-top:30px solid white;
-		border-left:10px solid white;
-		margin-top:-25px;
-		padding-top:5px;
+		padding:20px;
 	}
 	
-	#autodidact
+	.length
 	{
 		background-color:#4d4e53;
 		position:relative;
-		height:25px;
-		width:200px;
+		height:40px;
+		width:230px;
 		border-radius:10px;
 		color:white;
-		padding:5px;
-		margin-left:5px;
+		padding:10px;
+		text-align:centre;
 	}
 	
-	#didact
+	.head3
 	{
-		margin-left:20px;
-	}
-	
-	#listdidact
-	{
-		margin-left:20px;
-	}
-	
-	#duration
-	{
-		border-radius:10px;
+		font-weight:bold;
 		position:relative;
-		height:25px;
-		width:200px;
-		color:white;
-		background-color:#4d4e53;
-		padding:5px;
-		border-left:200px;
-		margin-left:5px;
-		}
-	
-	#dip
-	{
-		margin-left:20px;
+		left:30px;
 	}
 	
-	#name
+	.schhols
 	{
 		font-size:20px;
-		margin-left:30px;
+		font-weight:bold;
+		position:relative;
+		left:40px;
 	}
 	
 	#foundation
 	{
+	position:relative;
+	left:50px;
 	font-size:15px;
-	margin-left:40px;
-	}
-	
-	#level
-	{
-		border-radius:10px;
-		position:relative;
-		height:25px;
-		width:200px;
-		color:white;
-		background-color:#4d4e53;
-		padding:5px;
-		margin-left:5px;
-	}
-	
-	#As
-	{
-		margin-left:20px;
-	}
-	
-	#khan
-	{
-		font-size:20px;
-		margin-left:30px;
-	}
-	
-	#Os
-	{
-		border-radius:10px;
-		position:relative;
-		height:25px;
-		width:200px;
-		color:white;
-		background-color:#4d4e53;
-		padding:5px;
-		margin-left:5px;
-	}
-	
-	#olevel
-	{
-		margin-left:20px;
-		font-size:20px;
-	}
-	
-	#london
-	{
-		font-size:20px;
-		margin-left:30px;
 	}
 	
 	#aboutme
@@ -406,7 +311,7 @@
 	 a#faceb:link
 	 {
 		color:black;
-		boder-color:white;
+		border-color:white;
 	 }
 	 
 	 a#faceb:hover
