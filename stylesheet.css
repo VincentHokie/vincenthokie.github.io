@@ -1,25 +1,10 @@
-		
-	body
+	html
 	{
-	overflow-x:scroll;
+	min-width:1230px;
+	overflow:scroll;
 	}
 	
-	#header
-	{
-		height:250px;
-		width:100px;
-		background-color:#0a6dbb;
-		margin-left:10px;
-		margin-right:10px;
-		position:fixed;
-		float:top;
-		margin-top:-25px;
-		margin-bottom:5px solid white;
-		border-right:900px solid white;
-		border-top:10px solid white;
-		z-index:10;
-	}
-
+/*****Header begin*******/
 	#names
 	{
 	position:relative;
@@ -38,7 +23,7 @@
 		font-size:30px;
 		color:black;
 		border-radius:10px;
-		left:-50px;
+		left:10px;
 		bottom:115px;
 		padding-top:110px;
 	}
@@ -53,7 +38,7 @@
 	.lines
 	{
 	height:2px;
-	width:1000px;
+	width:1220px;
 	background-color:#0a6dbb;
 	position:relative;
 	bottom:50px;
@@ -65,16 +50,20 @@
 	color:white;
 	 font-size:100px;
 	}
+	
+/*****Header end*******/
 
+/*****left portion begin*******/
 	.leftest
 	{
 		position:fixed;
 		width:240px;
 		top:250px;
 		height:390px;
-		float:left;
 		z-index:9;
 		border-radius:10px;
+		display:inline;
+		display:none;
 	}
 	.left
 	{
@@ -83,7 +72,7 @@
 		width:50px;
 		height:380px;
 		position:relative;
-		left:10px;
+		left:-14px;
 	}
 	
 	.lists
@@ -112,7 +101,7 @@
 	height:40px;
 	width:170px;
 	padding:5px;
-	left:70px;
+	left:40px;
 	bottom:390px;
 	}
 	
@@ -123,18 +112,22 @@
 		position:relative;
 		background-color:#f7f7f7;
 		border-radius:10px;
-		left:70px;
+		left:36px;
 		bottom:395px;
 		}
+/*****left portion end*******/
 
+/*****middle portion begin*******/
 	.pse
 	{
 		height:1350px;
 		width:880px;
 		position:relative;
-		right:150px;
 		top:225px;
+		right:240px;
 		border-radius:10px;
+		z-index:9;
+		display:inline;
 	}
 
 	.personalprof
@@ -246,116 +239,132 @@
 	font-size:15px;
 	}
 	
-	#aboutme
+	/*****middle portion begin*******/
+	
+	/*****right portion begin*******/
+	#side
 	{
-		border-radius:5px;
-		height:320px;
-		width:220px;
-		background-color:white;
-		margin-left:1020px;
-		margin-top:-1125px;
-		clear:left;
+	position:fixed;
+	right:16px;
+	top:300px;
+	z-index:234;
+	height:240px;
+	width:40px;
+	}
+	
+	.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	position:relative;
+	right:-25px;
+	top:20px;
+	}
+	.sidebtns
+	{
+		font-weight:bold;
+		position:relative;
+		right:-10px;
+		background-color:#0a6dbb;
 		color:white;
+		width:30px;
+		height:100px;
 		border-radius:10px;
 	}
 	
-	#me
+	#links
+	{
+	background-color:#0a6dbb;
+	position:relative;
+	right:-50px;
+	top:-25px;
+	border-radius:10px;
+	width:50px;
+	height:100px;
+	}
+	
+	#info
+	{
+	position:relative;
+	background-color:#0a6dbb;
+	padding:10px 10px 10px 10px;
+	width:220px;
+	height:130px;
+	text-align:left;
+	right:-50px;
+	top:-30px;
+	border-radius:10px;
+	}
+	
+	#social
+	{
+	top:50px;
+	}
+	
+	#contact
+	{
+	top:10px;
+	}
+	
+	footer
 	{
 		position:relative;
-		height:300px;
-		background-color:#0a6dbb;
+		background-color:black;
+		height:50px;
 		border-radius:10px;
-		margin-top:-15px;
-		margin-left:5px;
-		margin-right:5px;
-		padding-left:60px;
-		
-	}
-
-	 #stuff
-	 {
-		height:200px;
-		width:200px;
-		background-color:white;
-		color:black;
-		position:relative;
-		margin-top:-270px;
-		margin-left:10px;
+		bottom:-390px;
+		color:white;
+		font-weight:bold;
 		padding-top:10px;
-	 }
-	 
-	 #ook
-	 {
-		font-size:16x;
-		margin:5px;
-	 }
-	 
+		text-align:center;
+	}
+	
 	 a
 	 {
 	 text-decoration:none;
+	 position:relative;
+	 color:white;
+	 display:inline;
+	 border:4px solid white;
+	 border-radius:30px;
+	 top:15px;
+	 left:7px;
+	 font-weight:bold;
 	 }
 	 
-	 a#faceb
+	 #faceb
 	 {
-	 border-radius:30px;
-	 border:3px solid white;
-	 padding:5px;
-	 padding-left:10px;
-	 padding-right:10px;
-	 position:relative;
-	 left:30px;
-	 color:black;
+	 padding:5px 10px 5px 10px;
 	 font-family:Tahoma;
 	 }
+
 	 
-	 a#faceb:link
+	 #faceb:hover
 	 {
-		color:black;
-		border-color:white;
-	 }
-	 
-	 a#faceb:hover
-	 {
+		text-decoration:none;
 		border-color:#3B5998;
 		color:#3B5998;
+		cursor:pointer;
 	 }
 	 
-	 a#faceb:visited
+	 #twirra
 	 {
-		border-color:#3B5998;
-		color:#3B5998;
-	 }
-	 a#twirra
-	 {
-	 display:inline;
-	 position:relative;
-	 left:40px;
 	 font-size:20px;
-	 border-radius:30px;
-	 border:3px solid white;
-	 padding-left:10px;
-	 padding-right:10px;
-	 padding-top:3px;
-	 padding-bottom:3px;
-	 color:black;
+	 padding:3px 10px 3px 10px;
 	 font-family:Gotham;
+	 top:30px;
 	 }
-	 
-	 a#twirra:link
+
+	 #twirra:hover
 	 {
-	 color:black;
-	 border-color:white;
-	 }
-	 
-	 a#twirra:hover
-	 {
+	 text-decoration:none;
 	 color:#4099FF;
 	 border-color:#4099FF;
+	cursor:pointer;
 	 }
 	 
-	 a#twirra:visited
+	 img
 	 {
-		color:#4099FF;
-	 border-color:#4099FF;
+	 width:30px;
+	 height:30px;
 	 }
-	 
+/*****right portion end*******/

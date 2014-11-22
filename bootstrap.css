@@ -3280,9 +3280,8 @@ a.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
 .jumbotron {
     padding:30px;
 	height:230px;
-    margin-bottom: 30px;
+	width:1250px;
     color: inherit;
-    background-color: #eee;
 	position:fixed;
 	z-index:10;
 	background-color:#f7f7f7;
