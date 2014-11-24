@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-	$(".leftest").fadeIn('slow');
-	
 	//---buttons---//
 	$(".sidebtns").hover(function() {
 	$(this).css("cursor", "pointer");
@@ -9,29 +7,29 @@ $(document).ready(function() {
 	
 	$("#social").click(
 	function() {
-	$("#links").css("right", "-50px");
-	$("#links").fadeIn(1);
-	$("#links").animate({right: '55px'}, 700);
+	if (!$(this).hasClass("clicked")) {
+	$(this).animate({right: '55px'}, 700).addClass("clicked");
+	} else {
+	$(this).animate({right: '-10px'}, 700).removeClass("clicked");
+	}
 	});
 	
 	$("#links").hover(function() {
-	$(this).css("right", "55px");
-	}, function() {
-	$(this).delay(10000).fadeOut('slow');
+	$("#social").css("right", "55px");
 	});
-	
+
 	$("#contact").click(
 	function() {
-	$("#info").css("right", "-50px");
-	$("#info").fadeIn(1);
-	$("#info").animate({right: '225px'}, 1000);
+	if (!$(this).hasClass("clicked")) {
+	$(this).animate({right:'240px'}, 1000).addClass("clicked");
+	} else {
+	$(this).animate({right:'-10px'}, 1000).removeClass("clicked");
+	}
 	});
-	
+
 	$("#info").hover(function() {
-	$(this).css("right", "225px");
-	}, function() {
-	$(this).delay(10000).fadeOut('slow');
+	$("#contact").css("right", "240x");
 	});
-	
+
 	//---buttons---//
 });
