@@ -128,21 +128,6 @@ strong {
   font-weight: bold;
 }
 
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
-}
-
 p img {
   display: inline;
   margin: 0;
@@ -483,6 +468,11 @@ padding:0px 15px 0px 15px;
 	margin-right:10px;
 	float:left;
 	display:inline;
+	box-shadow: 0 0 5px #ebebeb;
+	-webkit-box-shadow: 0 0 5px #ebebeb;
+	-moz-box-shadow: 0 0 5px #ebebeb;
+	-o-box-shadow: 0 0 5px #ebebeb;
+	-ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 #education h1
@@ -531,6 +521,11 @@ padding:0px 15px 0px 15px;
 {
 	width:300px;
 	height:250px;
+	box-shadow: 0 0 5px #ebebeb;
+	-webkit-box-shadow: 0 0 5px #ebebeb;
+	-moz-box-shadow: 0 0 5px #ebebeb;
+	-o-box-shadow: 0 0 5px #ebebeb;
+	-ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 /***right start*****/
