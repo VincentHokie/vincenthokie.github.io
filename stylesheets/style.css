@@ -289,7 +289,7 @@ hr
 
 #contacts
 {
-	background-color:#EBADD6;
+	background:linear-gradient(to bottom, black, #323232);
 	position:absolute;
 	top:-253px;
 	left:-2px;
@@ -524,6 +524,19 @@ padding:0px 15px 0px 15px;
 	-moz-box-shadow: 0 0 5px #ebebeb;
 	-o-box-shadow: 0 0 5px #ebebeb;
 	-ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+
+#contacts img
+{
+	height:100px;
+	width:100px;
+	margin-bottom:20px;
+}
+
+#contacts row
+{
+	margin-top:20px;
 }
 
 /***right start*****/
