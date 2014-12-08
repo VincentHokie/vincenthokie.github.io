@@ -95,7 +95,7 @@ p {
 footer p {
   color: #f2f2f2;
 }
-
+/*
 a {
   text-decoration: none;
   color: #007edf;
@@ -112,7 +112,7 @@ a {
   -ms-transition: color 0.5s ease;
   -ms-transition: text-shadow 0.5s ease;
 }
-
+*/
 footer a {
   color: #F2F2F2;
   text-decoration: underline;
@@ -225,9 +225,11 @@ form {
   padding: 20px;
 }
 
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
+
 body
 {
 	height:737px;
@@ -246,7 +248,9 @@ hr
 	margin:17px;
 }
 
-/*cube script*/
+/************************************************************************
+cube script
+*************************************************************/
 #personal
 {
 	background-color:#252525;
@@ -255,6 +259,9 @@ hr
 	left:-2px;
 	height:720px;
 	width:720px;
+	text-align:center;
+	font-weight:bold;
+	color:white;
 	-webkit-transform:rotateX( 0deg ) translateZ( 360px );
 	-moz-transform:rotateX( 0deg ) translateZ( 360px );
 	-o-transform:rotateX( 0deg ) translateZ( 360px );
@@ -263,10 +270,10 @@ hr
 
 #education
 {
+	background:linear-gradient(to bottom, black, #323232);
 	position:absolute;
 	top:265px;
 	left:-2px;
-	background:linear-gradient(to bottom, black, #323232);
 	height:720px;
 	width:720px;
 	color:white;
@@ -275,15 +282,13 @@ hr
     -moz-transform:rotateX( -90deg ) translateZ( 100px );
     -o-transform:rotateX( -90deg ) translateZ( 100px );
 	transform: rotateX( -90deg ) translateZ( 100px );
-	overflow-y:scroll;
-	overflow-x:hidden;
 }
 
 .show-education
 {
-	-webkit-transform: rotateX( 90deg ) translateZ(10px);
-	-moz-transform: rotateX( 90deg ) translateZ(10px);
-	-o-transform: rotateX( 90deg ) translateZ(10px);
+	-webkit-transform: rotateX( 90deg ) translateZ(-5px);
+	-moz-transform: rotateX( 90deg ) translateZ(-5px);
+	-o-transform: rotateX( 90deg ) translateZ(-5px);
 	transform: rotateX(90deg) translateZ(-5px);
 }
 
@@ -295,6 +300,9 @@ hr
 	left:-2px;
 	height:720px;
 	width:720px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
 	-webkit-transform:rotateX( 90deg ) translateZ( 100px );
 	-moz-transform:rotateX( 90deg ) translateZ( 100px );
 	-o-transform:rotateX( 90deg ) translateZ( 100px );
@@ -317,6 +325,8 @@ hr
 	left:-262px;
 	height:720px;
 	width:720px;
+	text-align:center;
+	color:white;
 	-webkit-transform:rotateY( -90deg ) translateZ( 100px );
 	-moz-transform:rotateY( -90deg ) translateZ( 100px );
 	-o-transform:rotateY( -90deg ) translateZ( 100px );
@@ -339,6 +349,8 @@ hr
 	left:241px;
 	height:720px;
 	width:720px;
+	text-align:center;
+	color:white;
 	-webkit-transform:rotateY( 90deg ) translateZ( 100px );
 	-moz-transform:rotateY( 90deg ) translateZ( 100px );
 	-o-transform:rotateY( 90deg ) translateZ( 100px );
@@ -355,15 +367,18 @@ hr
 
 #skill
 {
-	background-color:purple;
+	background:linear-gradient(to bottom, black, #323232);
 	position:absolute;
 	top:5px;
 	left:-2px;
 	height:720px;
 	width:720px;
-	-webkit-transform:rotateX( 180deg ) translateZ( 100px );
-	-moz-transform:rotateX( 180deg ) translateZ( 100px );
-	-o-transform:rotateX( 180deg ) translateZ( 100px );
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	-webkit-transform:rotateX( 180deg ) translateZ( 360px );
+	-moz-transform:rotateX( 180deg ) translateZ( 360px );
+	-o-transform:rotateX( 180deg ) translateZ( 360px );
 	transform:rotateX( 180deg ) translateZ( 360px );
 	overflow-y:scroll;
 	overflow-x:hidden;
@@ -387,9 +402,6 @@ hr
 	-webkit-transition-duration: 1s;
 	-moz-transition-duration: 1s;
 	transition-duration:1s;
-	text-align:center;
-	color:white;
-	font-weight:bold;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
@@ -466,11 +478,6 @@ padding:0px 15px 0px 15px;
 	margin-right:10px;
 	float:left;
 	display:inline;
-	box-shadow: 0 0 5px #ebebeb;
-	-webkit-box-shadow: 0 0 5px #ebebeb;
-	-moz-box-shadow: 0 0 5px #ebebeb;
-	-o-box-shadow: 0 0 5px #ebebeb;
-	-ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 #education h1
@@ -481,14 +488,12 @@ padding:0px 15px 0px 15px;
 
 #projects .row
 {
-	margin:20px;
+	padding:20px;
 }
 
 #education .row
 {
-	margin:20px;
-	margin-bottom:10px;
-	margin-top:10px;
+	padding:10px 0px 10px 20px;
 }
 
 .time
@@ -519,13 +524,7 @@ padding:0px 15px 0px 15px;
 {
 	width:300px;
 	height:250px;
-	box-shadow: 0 0 5px #ebebeb;
-	-webkit-box-shadow: 0 0 5px #ebebeb;
-	-moz-box-shadow: 0 0 5px #ebebeb;
-	-o-box-shadow: 0 0 5px #ebebeb;
-	-ms-box-shadow: 0 0 5px #ebebeb;
 }
-
 
 #contacts img
 {
@@ -537,6 +536,25 @@ padding:0px 15px 0px 15px;
 #contacts row
 {
 	margin-top:20px;
+}
+
+.title
+{
+	margin-left:20px;
+}
+
+.qual
+{
+	margin-left:30px;
+}
+
+#edscroll
+{
+	position:absolute;
+	height:625px;
+	width:720px;
+	overflow-y:scroll;
+	overflow-x:hidden;
 }
 
 /***right start*****/
@@ -598,7 +616,15 @@ text-align:center;
 {
 	font-family:Gotham;
 }
+
+#li
+{
+	text-decoration:none;
+	color:white;
+}
+
 /***right end*****/
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
