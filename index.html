@@ -1,112 +1,120 @@
-<!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset='utf-8'>
-			<link rel="icon" type="image/png" href="vh.png">
-			<title>Vincent Hokie Resume</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-			<link type="text/css" rel="stylesheet" href="stylesheets/style.css">
-			<link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.css">
-		</head>
-		<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div id="leftmenu" class="col-lg-2 col-md-2">
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="images/vh.png">
+<title>Vincent Hokie Resume</title>
+<link href="stylesheets/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/newstyle.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/skillcss.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/contactcss.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/projectscss.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/educationcss.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/experiencecss.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/personalcss.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="javascripts/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="menu">
+  	<ul>
+		<li id="home" class="picked">Home</li>
+		<li id="ed">Education</li>
+		<li id="con">Contacts</li>
+		<li id="pro">Projects</li>
+		<li id="exp">Experience</li>
+		<li id="sks">Skills
+		</li>
+	</ul>
+    <div id="links">
+    	<a href="https://www.facebook.com/vincent.hokie" id="fb">f</a>
+		<a href="https://twitter.com/Vincelona" id="twit" >t</a>
+    </div>
+  </div>
+	<div id="cube">
+		<div class="gridContainer clearfix" id="personal">
+		  <div id="header" class="jumbotron">
+			<h1>Vincent Hokie</h1>
+			<h2>Web Designer/ Developer</h2>
+		  </div>
+		  <div id="info">
+			<h2>Personal Profile</h2>
+			<img id="me" src="images/me.jpg" alt="My Picture">
+			<p>I'm a 20 year old energetic, enthusiastic and hard working upcoming developer. I have a science background which makes me grasp concepts and learn new languages very quickly and with great detail. My hardworking nature makes me push myself to the limit every day to learn and grow.</p>
+		  </div>
+		</div>
+		<div class="gridContainer clearfix" id="education">
+		<div id="header">
+			<h1>Education</h1>
+		</div>
+		<div id="edscroll">
+			<div id="autodidact">
+				<h4 class="time">September 2014 - Present</h4>
+				<h3 class="title">Autodidact</h3>
 					<ul>
-						<li id="home" class="picked">Home</li>
-						<li id="ed">Education</li>
-						<li id="con">Contacts</li>
-						<li id="pro">Projects</li>
-						<li id="exp">Experience</li>
-						<li id="sks">Skills</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+						<li>JavaScript</li>
+						<li>PHP5</li>
 					</ul>
-						<div id="links">
-							<a href="https://www.facebook.com/vincent.hokie" id="fb">f</a>
-							<a href="https://twitter.com/Vincelona" id="twit" >t</a>
-						</div>
-				</div>
-				<div id="cube" class="col-lg-7 col-md-7">
-					<div id="personal">
-						<div class="personalprof">
-							<div class="jumbotron">
-								<h1>Vincent Hokie</h1>
-								<h2>Web and Software Developer</h2>
-							</div>
-							<div class="row col-lg-12 col-md-12">
-								<h2>Personal Profile</h2>
-								<img id="me" src="images/me.jpg" alt="My Picture">
-								<p>I'm a 20 year old energetic, enthusiastic and hard working upcoming developer. I have a science background which makes me grasp concepts and learn new languages very quickly and with great detail. My hardworking nature makes me push myself to the limit every day to learn and grow.</p>
-							</div>
-						</div>
-					</div>
-					<div id="education">
-						<h1>Education</h1>
-						<div id="edscroll">
-							<div class="row">
-								<div class="col-lg-12 col-md-12">
-									<h4 class="time">September 2014 - Present</h4>
-									<h3 class="title">Autodidact</h3>
-									<ul>
-										<li>HTML5</li>
-										<li>CSS3</li>
-										<li>jQuery</li>
-										<li>Bootstrap</li>
-										<li>JavaScript</li>
-										<li>PHP5</li>
-									</ul>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12">
-									<h4 class="time">April 2014 - November 2014</h4>
-									<h3 class="title">Nairobi Institute of Business Studies (NIBS)</h3>
-									<h4 class="qual">Diploma in Computer Programming</h4>
-									<p>I completed my foundation in programming successfully where I did Java, C, C++, VB, VB.NET, Access Databases and SQL.</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12">
-									<h4 class="time">February 2012 - November 2013</h4>
-									<h3 class="title">Aga Khan High School, Kampala</h3>
-									<h4 class="qual">A - Level</h4>
-									<p>I completed my Advanced Level Education successfully with one of the highest scores at my institution</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12">
-									<h4 class="time">January 2009 - November 2011</h4>
-									<h3 class="title">London College of St. Lawrence</h3>
-									<h4 class="qual">O - Level</h4>
-									<p>I successfully completed my Ordinary Level education - again - with one of the highest scores at the institution</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12">
-									<h4 class="time"></h4>
-									<h3 class="title"></h3>
-									<h4 class="qual"></h4>
-									<p></p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="contacts">
+			</div>
+			<div id="diploma">
+				<h4 class="time">April 2014 - November 2014</h4>
+				<h3 class="title">Nairobi Institute of Business Studies (NIBS)</h3>
+				<h4 class="qual">Diploma in Computer Programming</h4>
+				<p>I completed my foundation in programming successfully where I did Java, C, C++, VB, VB.NET, Access Databases and SQL.</p>
+			</div>
+			<div id="Alevel">
+				<h4 class="time">February 2012 - November 2013</h4>
+				<h3 class="title">Aga Khan High School, Kampala</h3>
+				<h4 class="qual">A - Level</h4>
+				<p>I completed my Advanced Level Education successfully with one of the highest scores at my institution</p>
+			</div>
+			<div id="Olevel">
+				<h4 class="time">January 2009 - November 2011</h4>
+				<h3 class="title">London College of St. Lawrence</h3>
+				<h4 class="qual">O - Level</h4>
+				<p>I successfully completed my Ordinary Level education - again - with one of the highest scores at the institution.</p>
+			 </div>
+		 </div>
+	</div>
+		<div class="gridContainer clearfix" id="contacts">
+					  <div id="header">
 						<h1>Contacts</h1>
-						<div class="row">
-							<div class="col-lg-4 col-md-4">
-								<img src="images/skype.gif" alt="skype">
-								<p>vincent.hokie</p>
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<img src="images/mail.png" alt="mail">
-								<p>vincenthokie@gmail.com</p>
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<img src="images/phone.png" alt="mobile">
-								<p>+254-712-910</p>
-							</div>
-						</div>
+					   </div>
+					  <div id="skype">
+						<img src="images/skype.gif" alt="skype">
+						<p>vincent.hokie</p>
+					  </div>
+					  <div id="email">
+						<img src="images/mail.png" alt="mail">
+						<p>vincenthokie@gmail.com</p>
+					  </div>
+					  <div id="phone">
+						<img src="images/phone.png" alt="mobile">
+						<p>+254-712-910</p>
+					  </div>
 						<!--
 						<div class="row">
 							<h3>Direct Contact</h3>
@@ -117,129 +125,114 @@
 						</div>
 						-->
 					</div>
-					<div id="projects">
-						<h1>Projects</h1>
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<h3>Resume</h3>
-								<p>My first project happens to be my first resume.</p>
-								<img id="screenshot" alt="First Resume" src="images/firstresume.png">
-								<p>The link is below</p>
-								<a href="http://vincenthokie.github.io/resume" id="li">First Resume</a>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<h3>Current Resume</h3>
-								<p>My most recent hosted project is the Resume you are looking at now.</p>
-								<img id="screenshot" alt="Current Resume" src="images/firstproject.png">
-								<p>The link is below</p>
-								<a id="li" href="http://vincenthokie.github.io">Current Resume</a>
-							</div>
-						</div>
-					</div>
-					<div id="experience">
-						<h1>Experience</h1>
-						<div class="row">
-							<div class="left col-lg-12 col-md-12">
-								<h3>November 2014</h3>
-								<p>My first exciting experience as a coder is the creation of my Resume over a period of weeks.</p>
-							</div>
-						</div>
-					</div>
-					<div id="skill">
-						<h2>Skills and Competences</h2>
-						<div class="row">
-							<div class="col-lg-4 col-md-4">
-								<h3>html5</h3>
-								<p>I began learning code by myself with html5 which I have since extensively read on and coded with to make several web pages including my CV, this CV</p><br>
-								<img src="images/html5.fw.png" alt="html5">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>css3</h3>
-								<p>I learnt css3 autodidact together with html5 which I ave also used extensively and gotten comfortable using over the last couple of months</p><br>
-								<img src="images/css3.fw.png" alt="css3">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>jQuery</h3>
-								<p>I learnt jQuery  before JavaScript with the hopes of easily learning to make my web pages more interactive, which I have successfully done and gotten comfortable using</p>
-								<img src="images/jquery.fw.png" alt="jQuery">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4">
-								<h3>JavaScript</h3>
-								<p>Its been a long journey with this one, but I have gotten comfortable using it in web pages</p><br><br>
-								<img src="images/javascript.fw.png" alt="JavaScript">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>Bootstrap</h3>
-								<p>Bootstrap came to my attention while doing a tutorial and I have used it since to make my web pages more goodlooking with the least amount of code</p>
-								<img src="images/bootstrap.fw.png" alt="bootstrap">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>PHP5</h3>
-								<p>This also took a while to get used to, but several tutorials later I can -with relative comfort- insert PHP script in my web page</p><br>
-								<img src="images/php5.fw.png" alt="php5">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4">
-								<h3>VB.NET</h3>
-								<p>Also part of my course at NIBS and successfully leant</p><br>
-								<img src="images/vbnet.fw.png" alt="Visual Basic .NET">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>VB</h3>
-								<p>The foundation language was Visual Basic 6.0, part of my course at NIBS</p>
-								<img src="images/vb.fw.png" alt="Visual Basic 6.0">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3>Java</h3>
-								<p>This was also a part of my course at NIBS, which I successfully learnt</p>
-								<img src="images/java.fw.png" alt="Java">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4">
-								<h3>C++</h3>
-								<p>I did C++ while in school, and I had a great understanding of how it worked</p>
-								<img src="images/c++.fw.png" alt="c++">
-							</div>
-							
-							<div class="col-lg-4 col-md-4">
-								<h3>SQL</h3>
-								<p>Also part of my course at NIBS, I successfully learnt it</p><br>
-								<img src="images/sql.fw.png" alt="SQL">
-							</div>
-							<div class="col-lg-4 col-md-4">
-								<h3></h3>
-								<p></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="right col-lg-3 col-md-3">
-					<div class="row">
-						<div class="strength col-lg-12 col-md-12">
-							<h2>Strengths</h2>
-							<ul class="lists">
-								<li>Intelligent<hr></li>
-								<li>Quick learner<hr></li>
-								<li>Determined<hr></li>
-								<li>Hard Worker<hr></li>
-								<li>Reliable<hr></li>
-								<li>Responsible<hr></li>
-								<li>Honest<hr></li>
-								<li>An eye for detail<hr></li>
-								<li>Quick understanding of new concepts and languages<hr></li>
-								<li>Excellent application of concepts<hr></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="gridContainer clearfix" id="projects">
+			<div id="header">
+				<h1>Projects</h1>
+			 </div>
+			  <div id="First">
+				<h3>Resume</h3>
+				<p>My first project happens to be my first resume.</p><br>
+				<img id="screenshot" alt="First Resume" src="images/firstresume.png">
+				<p>The link is below</p>
+				<a href="http://vincenthokie.github.io/resume" id="li">First Resume</a>
+			  </div>
+			  <div id="current">
+				<h3>Current Resume</h3>
+				<p>My most recent hosted project is the Resume you are looking at now.</p>
+				<img id="screenshot" alt="Current Resume" src="images/firstproject.png">
+			  </div>
 		</div>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-				<script src="javascripts/inter.js"></script>
-		</body>
-	</html>
+		<div class="gridContainer clearfix" id="experience">
+		  <div id="header">
+			<h1>Experience</h1>
+		  </div>
+		  <div id="resume">
+			<h3>November 2014</h3>
+			<p>My first exciting experience as a coder is the creation of my Resume over a period of weeks.</p>
+		  </div>
+		</div>
+		<div class="gridContainer clearfix" id="skill">
+					  <div id="header">
+						<h1>Skills and Competences</h1>
+					  </div>
+					  <div id="html5">
+						<h3>html5</h3>
+						<p>I began learning code by myself with html5 which I have since extensively read on and coded with to make several web pages including my CV, this CV</p><br>
+						<img src="images/html5.fw.png" alt="html5">
+					  </div>
+					  <div id="css3">
+						<h3>css3</h3>
+						<p>I learnt css3 autodidact together with html5 which I ave also used extensively and gotten comfortable using over the last couple of months</p><br>
+						<img src="images/css3.fw.png" alt="css3">
+					  </div>
+					  <div id="jquery">
+						<h3>jQuery</h3>
+						<p>I learnt jQuery  before JavaScript with the hopes of easily learning to make my web pages more interactive, which I have successfully done and gotten comfortable using</p>
+						<img src="images/jquery.fw.png" alt="jQuery">
+					  </div>
+					
+					<div id="javascript">
+						<h3>JavaScript</h3>
+						<p>Its been a long journey with this one, but I have gotten comfortable using it in web pages</p><br><br>
+						<img src="images/javascript.fw.png" alt="JavaScript">
+					</div>
+					<div id="bootstrap">
+						<h3>Bootstrap</h3>
+						<p>Bootstrap came to my attention while doing a tutorial and I have used it since to make my web pages more goodlooking with the least amount of code</p><br>
+						<img src="images/bootstrap.fw.png" alt="bootstrap">
+					</div>
+					<div id="php5">
+						<h3>PHP5</h3>
+						<p>This also took a while to get used to, but several tutorials later I can -with relative comfort- insert PHP script in my web page</p><br>
+						<img src="images/php5.fw.png" alt="php5">
+					</div>
+					<div id="VBNET">
+						<h3>VB.NET</h3>
+						<p>Also part of my course at NIBS and successfully leant</p><br>
+						<img src="images/vbnet.fw.png" alt="Visual Basic .NET">
+					</div>
+					<div id="VB">
+						<h3>VB</h3>
+						<p>The foundation language was Visual Basic 6.0, part of my course at NIBS</p>
+						<img src="images/vb.fw.png" alt="Visual Basic 6.0">
+					</div>
+					<div id="java">
+						<h3>Java</h3>
+						<p>This was also a part of my course at NIBS, which I successfully learnt</p>
+						<img src="images/java.fw.png" alt="Java">
+					</div>
+					<div id="ccc">
+						<h3>C++</h3>
+						<p>I did C++ while in school, and I had a great understanding of how it worked</p>
+						<img src="images/c++.fw.png" alt="c++">
+					</div>
+					<div id="sql">
+						<h3>SQL</h3>
+						<p>Also part of my course at NIBS, I successfully learnt it</p><br>
+						<img src="images/sql.fw.png" alt="SQL">
+					</div>
+				</div>
+	</div>
+  <div id="strength">
+	<h2>Strengths</h2>
+		<ul class="lists">
+			<li>Intelligent<hr></li>
+			<li>Quick learner<hr></li>
+			<li>Determined<hr></li>
+			<li>Hard Worker<hr></li>
+			<li>Reliable<hr></li>
+			<li>Responsible<hr></li>
+			<li>Honest<hr></li>
+			<li>An eye for detail<hr></li>
+			<li>Quick understanding of new concepts and languages<hr></li>
+			<li>Excellent application of concepts<hr></li>
+		</ul>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="javascripts/inter.js"></script>
+
+</body>
+</html>
