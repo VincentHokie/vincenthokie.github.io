@@ -176,84 +176,77 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #css3 {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #jquery {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #javascript {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #bootstrap {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #php5 {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-#VB.NET {
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #VBNET {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #VB {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #java {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #ccc {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 #sql {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
+	width: 48%;
 	display: block;
 }
 }
