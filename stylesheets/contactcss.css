@@ -72,6 +72,7 @@ img, object, embed, video {
 	position:absolute;
 	top:5100px;
 	height:100%;
+	width:100%;
 	text-align:center;
 	color:white;
 	font-weight:bold;
