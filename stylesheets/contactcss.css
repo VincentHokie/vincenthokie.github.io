@@ -34,14 +34,9 @@ img, object, embed, video {
 	width: 97.3913%;
 	padding-left: 1.3043%;
 	padding-right: 1.3043%;
+	background-color:black;
 }
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+
 #header {
 	clear: both;
 	float: left;
@@ -49,26 +44,49 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
 #skype {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
 }
+
 #email {
 	clear: none;
 	float: left;
-	margin-left: 2.6785%;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
 }
+
 #phone {
 	clear: none;
 	float: left;
-	margin-left: 2.6785%;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
+}
+
+#contacts {
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:4755px;
+	height:100%;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+
+.show-contacts {
+	-webkit-transform: rotateX( -90deg ) translateZ(5px);
+	-moz-transform: rotateX( -90deg ) translateZ(5px);
+	-o-transform: rotateX( -90deg ) translateZ(5px);
+	transform: rotateX(-90deg) translateZ(5px);
+}
+
+#contacts img{
+	height:50px;
+	width:50px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -79,13 +97,6 @@ img, object, embed, video {
 	padding-left: 0.8152%;
 	padding-right: 0.8152%;
 }
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
 #header {
 	clear: both;
 	float: left;
@@ -97,26 +108,25 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
 }
 #email {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
 }
 #phone {
 	clear: none;
 	float: left;
 	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
+	width: 30%;
+	display: inline;
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
@@ -126,13 +136,80 @@ img, object, embed, video {
 	padding-right: 0.5434%;
 	margin: auto;
 }
-#LayoutDiv1 {
+
+#header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
+#skype {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.6007%;
+	display: inline;
+}
+#email {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: inline;
+}
+#phone {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: inline;
+}
+
+#contacts
+{
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:0px;
+	height:100%;
+	width:100%;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	-webkit-transform:rotateX( 90deg ) translateZ( 100px );
+	-moz-transform:rotateX( 90deg ) translateZ( 100px );
+	-o-transform:rotateX( 90deg ) translateZ( 100px );
+	transform:rotateX(90deg) translateZ( 360px ) translateY(-80px);
+}
+
+.show-contacts
+{
+	-webkit-transform: rotateX( -90deg ) translateZ(5px);
+	-moz-transform: rotateX( -90deg ) translateZ(5px);
+	-o-transform: rotateX( -90deg ) translateZ(5px);
+	transform: rotateX(-90deg) translateZ(80px);
+}
+
+#contacts img
+{
+	height:100px;
+	width:100px;
+	margin-bottom:20px;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1220px) {
+.gridContainer {
+	width: 98.913%;
+	max-width: 1232px;
+	padding-left: 0.5434%;
+	padding-right: 0.5434%;
+	margin: auto;
+}
+
 #header {
 	clear: both;
 	float: left;
@@ -161,8 +238,6 @@ img, object, embed, video {
 	width: 32.6007%;
 	display: block;
 }
-
-
 #contacts
 {
 	background:linear-gradient(to bottom, black, #323232);

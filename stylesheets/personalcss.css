@@ -35,26 +35,55 @@ img, object, embed, video {
 	padding-left: 1.3043%;
 	padding-right: 1.3043%;
 }
-#LayoutDiv1 {
+
+#personal #header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	text-align:center;
+	background-color:grey;
+	font-weight:bold;
+	font-size:1em;
+	color:black;
 }
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+
 #info {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+}
+
+#personal
+{
+	position:absolute;
+	width:100%;
+	top:450px;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	margin-right:10px;
+}
+
+#info p
+{
+	margin-top:30px;
+	padding:15px;
+}
+
+#me
+{
+	height:270px;
+	width:270px;
+	position:relative;
+	top:20px;
+	margin-right:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -66,13 +95,19 @@ img, object, embed, video {
 	padding-right: 0.8152%;
 }
 
-#header {
+#personal #header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	text-align:center;
+	background-color:grey;
+	font-weight:bold;
+	font-size:1em;
+	color:black;
 }
+
 #info {
 	clear: both;
 	float: left;
@@ -80,9 +115,36 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
+#personal
+{
+	position:absolute;
+	top:450px;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	margin-right:10px;
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+#info p
+{
+	margin-top:30px;
+	padding:15px;
+}
+
+#me
+{
+	height:270px;
+	width:270px;
+	position:relative;
+	top:20px;
+	margin-right:10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+}
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
@@ -117,6 +179,66 @@ img, object, embed, video {
 {
 	background-color:#252525;
 	position:absolute;
+	top:0px;
+	height:100%;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	-webkit-transform:rotateX( 0deg ) translateZ( 360px );
+	-moz-transform:rotateX( 0deg ) translateZ( 360px );
+	-o-transform:rotateX( 0deg ) translateZ( 360px );
+	transform: rotateX( 0deg ) translateZ( 275px );
+}
+
+#me
+{
+	height:270px;
+	width:270px;
+	position:relative;
+	top:20px;
+	margin-right:10px;
+	float:left;
+	display:inline;
+}
+
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1220px) {
+.gridContainer {
+	width: 98.913%;
+	max-width: 1232px;
+	padding-left: 0.5434%;
+	padding-right: 0.5434%;
+	margin: auto;
+}
+#personal #header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:grey;
+	font-weight:bold;
+	font-size:2em;
+	color:black;
+}
+
+#info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:20px;
+}
+
+#personal
+{
+	background-color:#252525;
+	position:absolute;
+	top:0px;
 	height:100%;
 	width:100%;
 	text-align:center;
@@ -126,6 +248,17 @@ img, object, embed, video {
 	-moz-transform:rotateX( 0deg ) translateZ( 360px );
 	-o-transform:rotateX( 0deg ) translateZ( 360px );
 	transform: rotateX( 0deg ) translateZ( 360px );
+}
+
+#me
+{
+	height:270px;
+	width:270px;
+	position:relative;
+	top:20px;
+	margin-right:10px;
+	float:left;
+	display:inline;
 }
 
 }

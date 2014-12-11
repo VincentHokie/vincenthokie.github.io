@@ -35,13 +35,7 @@ img, object, embed, video {
 	padding-left: 1.3043%;
 	padding-right: 1.3043%;
 }
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+
 #header {
 	clear: both;
 	float: left;
@@ -49,12 +43,42 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
 #resume {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+}
+
+#experience
+{
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:3275px;
+	height:600px;
+	text-align:center;
+	color:white;
+}
+
+.show-experience
+{
+	-webkit-transform: rotateY( 90deg ) translateZ(-2px);
+	-moz-transform: rotateY( 90deg ) translateZ(-2px);
+	-o-transform: rotateY( 90deg ) translateZ(-2px);
+	transform: rotateY( 90deg ) translateZ(-2px);
+}
+
+#resume
+{
+	text-align:left;
+	padding:5px 15px 5px 15px;
+}
+
+#resume p
+{
+	padding:0px 20px 0px 20px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -88,9 +112,70 @@ img, object, embed, video {
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 98.913%;
+	max-width: 1232px;
+	padding-left: 0.5434%;
+	padding-right: 0.5434%;
+	margin: auto;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#resume {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#experience
+{
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:0px;
+	left:-180px;
+	height:100%;
+	width:100%;
+	text-align:center;
+	color:white;
+	-webkit-transform:rotateY( -90deg ) translateZ( 100px );
+	-moz-transform:rotateY( -90deg ) translateZ( 100px );
+	-o-transform:rotateY( -90deg ) translateZ( 100px );
+	transform: rotateY(-90deg) translateZ( 240px ) translateX(-140px);
+}
+
+.show-experience
+{
+	-webkit-transform: rotateY( 90deg ) translateZ(-130px);
+	-moz-transform: rotateY( 90deg ) translateZ(-130px);
+	-o-transform: rotateY( 90deg ) translateZ(-130px);
+	transform: rotateY( 90deg ) translateZ(130px);
+}
+
+#resume
+{
+	text-align:left;
+	padding:5px 15px 5px 15px;
+}
+
+#resume p
+{
+	padding:0px 20px 0px 20px;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1220px) {
 .gridContainer {
 	width: 98.913%;
 	max-width: 1232px;
@@ -124,6 +209,7 @@ img, object, embed, video {
 {
 	background:linear-gradient(to bottom, black, #323232);
 	position:absolute;
+	top:0px;
 	left:-262px;
 	height:720px;
 	width:713px;

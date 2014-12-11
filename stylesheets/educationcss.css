@@ -72,6 +72,58 @@ img, object, embed, video {
 	display: block;
 }
 
+#education
+{
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:1590px;
+	height:870px;
+	width:100%;
+	color:white;
+	text-align:left;
+}
+
+.show-education
+{
+	-webkit-transform: rotateX( 90deg ) translateZ(-5px);
+	-moz-transform: rotateX( 90deg ) translateZ(-5px);
+	-o-transform: rotateX( 90deg ) translateZ(-5px);
+	transform: rotateX(90deg) translateZ(-5px);
+}
+
+#education h1
+{
+	text-align:center;
+}
+
+.qual
+{
+	margin-left:20px;
+}
+
+.time
+{
+	border:1px solid #cccccc;
+	padding:5px 15px 5px 15px;
+	width:200px;
+	border-radius:10px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.title
+{
+	margin-left:10px;
+}
+
+#education p
+{
+	padding:0px 10px 0px 10px;
+}
+
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -124,7 +176,6 @@ img, object, embed, video {
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
@@ -134,13 +185,120 @@ img, object, embed, video {
 	padding-right: 0.5434%;
 	margin: auto;
 }
-#LayoutDiv1 {
+
+#header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
+#autodidact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#diploma {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Alevel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Olevel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+#education
+{
+	background:linear-gradient(to bottom, black, #323232);
+	position:absolute;
+	top:265px;
+	height:100%;
+	width:100%;
+	color:white;
+	text-align:left;
+	-webkit-transform:rotateX( -90deg ) translateZ( 100px ) translateY(80px);
+    -moz-transform:rotateX( -90deg ) translateZ( 100px ) translateY(80px);
+    -o-transform:rotateX( -90deg ) translateZ( 100px ) translateY(80px);
+	transform: rotateX( -90deg ) translateZ( 100px ) translateY(80px);
+}
+
+.show-education
+{
+	-webkit-transform: rotateX( 90deg ) translateZ(80px);
+	-moz-transform: rotateX( 90deg ) translateZ(80px);
+	-o-transform: rotateX( 90deg ) translateZ(80px);
+	transform: rotateX(90deg) translateZ(80px);
+}
+
+#education h1
+{
+	text-align:center;
+}
+
+.qual
+{
+	margin-left:30px;
+}
+
+.time
+{
+	border:1px solid #cccccc;
+	padding:5px 15px 5px 15px;
+	width:320px;
+	border-radius:10px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+
+.title
+{
+	margin-left:20px;
+}
+
+
+#edscroll
+{
+	height:625px;
+	width:100%;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+#education p
+{
+	padding:0px 15px 0px 15px;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 1220px) {
+.gridContainer {
+	width: 98.913%;
+	max-width: 1232px;
+	padding-left: 0.5434%;
+	padding-right: 0.5434%;
+	margin: auto;
+}
+
 #header {
 	clear: both;
 	float: left;
