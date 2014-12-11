@@ -28,12 +28,6 @@ img, object, embed, video {
 
 /* Mobile Layout: 480px and below. */
 
-html, body
-{
-	overflow-x:hidden;
-}
-
-
 .gridContainer {
 	
 	margin-left: auto;
@@ -216,11 +210,6 @@ html, body
 
 @media only screen and (min-width: 769px) {
 
-html, body
-{
-	overflow-x:auto;
-}
-
 .gridContainer {
 	width: 98.913%;
 	max-width: 1232px;
@@ -331,11 +320,6 @@ html, body
 }
 
 @media only screen and (min-width: 1220px) {
-
-html, body
-{
-	overflow-x:auto;
-}
 
 .gridContainer {
 	width: 98.913%;
