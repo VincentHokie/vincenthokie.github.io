@@ -1,239 +1,629 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="images/vh.png">
-<title>Vincent Hokie Resume</title>
-<link href="stylesheets/boilerplate.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/newstyle.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/skillcss.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/contactcss.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/projectscss.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/educationcss.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/experiencecss.css" rel="stylesheet" type="text/css">
-<link href="stylesheets/personalcss.css" rel="stylesheet" type="text/css">
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="javascripts/respond.min.js"></script>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Vincent Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/slick.css" rel="stylesheet" type="text/css">
+  <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+  
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style type="text/css">
+  nav, .jumbotron{background: url(images/maasai1.jpg);}
+  </style>
 </head>
-<body>
-<div class="gridContainer clearfix">
-  <div id="menu">
-  	<ul>
-		<li id="home" class="picked">Home</li>
-		<li id="ed">Education</li>
-		<li id="con">Contacts</li>
-		<li id="pro">Projects</li>
-		<li id="exp">Experience</li>
-		<li id="sks">Skills
-		</li>
-	</ul>
-    <div id="links">
-    	<a href="https://www.facebook.com/vincent.hokie" id="fb">f</a>
-		<a href="https://twitter.com/Vincelona" id="twit" >t</a>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage">Vincent</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Vincent</h1> 
+    <p>Web & Android Developer</p> 
+  </div>
+
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 take-me-right">
+        <h4>Personal Details</h4>
+        <div class="table-responsive table-condensed">
+          <table class="table">
+            <tr>
+              <td>Full Name:</td>
+              <td>Vincent Asante Hokie</td>
+            </tr>
+            <tr>
+              <td>Nationality:</td>
+              <td>Ugandan</td>
+            </tr>
+            <tr>
+              <td>Date of Birth:</td>
+              <td>12th October '94</td>
+            </tr>
+            <tr>
+              <td>Gender:</td>
+              <td>Male</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8"style="float:left">
+        <h2>M.E.</h2>
+        <h4>I'm a self-learning, self-driven and self-disciplined developer looking for a challenge and an all-round learning experience.</h4>
+        <br>
+        <p>I am born and raised in Nairobi for the first 13 years of my life, having attended both the Kenyan and British School Curriculums for 6 and 4 years respectively. Moved to Uganda and attended their local curriculum for the next 5 years. <strong>THEN</strong> came my code fixation. I spent a year self-learning, shadowing a developer and going to an institution in Narobi learning different platforms, which came with its fair share of frustration, but a bigger share of learning. This really really helped me through my Computer Science Degree at the International University of East Africa where I finished in May 2017 with a decent final overall grade. I have a new fascination with computer security, pentesting and hacking (ethically obviously :) ), so that's the direction this resume will go in with time. Also, I'm a HUGE soccer fan! If you need more info ofcourse, don't hesitate to <a href="#contact" role="button">get in touch</a> with what you'd like to know. Below is a bit more detailed information about me.</p>
+        <br>
+        <a href="#contact" class="btn btn-default" role="button">Get in Touch</a>
+      </div>
+
     </div>
   </div>
-	<div id="cube">
-		<div class="gridContainer clearfix" id="personal">
-		  <div id="header" class="jumbotron">
-			<h1>Vincent Hokie</h1>
-			<h2>Web Designer/ Developer</h2>
-		  </div>
-		  <div id="info">
-			<h2>Personal Profile</h2>
-			<img id="me" src="images/me.jpg" alt="My Picture" title="My picture">
-			<p>I'm a 20 year old energetic, enthusiastic and hard working upcoming developer. I have a science background which makes me grasp concepts and learn new languages very quickly and with great detail. My hardworking nature makes me push myself to the limit every day to learn and grow.</p>
-		  </div>
-		</div>
-		<div class="gridContainer clearfix" id="education">
-		<div id="header">
-			<h1>Education</h1>
-		</div>
-		<div id="edscroll">
-			<div id="autodidact">
-				<h4 class="time">September 2014 - Present</h4>
-				<h3 class="title">Autodidact</h3>
-					<ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>jQuery</li>
-						<li>Bootstrap</li>
-						<li>JavaScript</li>
-						<li>PHP5</li>
-					</ul>
-			</div>
-			<div id="diploma">
-				<h4 class="time">April 2014 - November 2014</h4>
-				<h3 class="title">Nairobi Institute of Business Studies (NIBS)</h3>
-				<h4 class="qual">Diploma in Computer Programming</h4>
-				<p>I completed my foundation in programming successfully where I did Java, C, C++, VB, VB.NET, Access Databases and SQL.</p>
-			</div>
-			<div id="Alevel">
-				<h4 class="time">February 2012 - November 2013</h4>
-				<h3 class="title">Aga Khan High School, Kampala</h3>
-				<h4 class="qual">A - Level</h4>
-				<p>I completed my Advanced Level Education successfully with one of the highest scores at my institution</p>
-			</div>
-			<div id="Olevel">
-				<h4 class="time">January 2009 - November 2011</h4>
-				<h3 class="title">London College of St. Lawrence</h3>
-				<h4 class="qual">O - Level</h4>
-				<p>I successfully completed my Ordinary Level education - again - with one of the highest scores at the institution.</p>
-			 </div>
-		 </div>
-	</div>
-		<div class="gridContainer clearfix" id="contacts">
-					  <div id="header">
-						<h1>Contacts</h1>
-					   </div>
-					  <div id="skype">
-						<img src="images/skype.gif" alt="skype" title="skype">
-						<p>vincent.hokie</p>
-					  </div>
-					  <div id="email">
-						<img src="images/mail.png" alt="mail" title="mail">
-						<p>vincenthokie<br>@gmail.com</p>
-					  </div>
-					  <div id="phone">
-						<img src="images/phone.png" alt="mobile" title="mobile">
-						<p>+254-712-910-636</p>
-					  </div>
-						<!--
-						<div class="row">
-							<h3>Direct Contact</h3>
-						<div class="col-lg-12 col-md-12">
-							<form>
-							</form>
-						</div>
-						</div>
-						-->
-					</div>
-		<div class="gridContainer clearfix" id="projects">
-			<div id="header">
-				<h1>Projects</h1>
-			 </div>
-			  <div id="First">
-				<h3>Resume</h3>
-				<p>My first project happens to be my first resume.</p><br>
-				<img id="screenshot" alt="First Resume" src="images/firstresume.png" title="First resume screenshot">
-				<p>The link is below</p>
-				<a href="http://vincenthokie.github.io/resume" id="li">First Resume</a>
-			  </div>
-			  <div id="current">
-				<h3>Current Resume</h3>
-				<p>My most recent hosted project is the Resume you are looking at now.</p>
-				<img id="screenshot" alt="Current Resume" src="images/firstproject.png" title="Current resume screenshot">
-			  </div>
-		</div>
-		<div class="gridContainer clearfix" id="experience">
-		  <div id="header">
-			<h1>Experience</h1>
-		  </div>
-		  <div id="resume">
-			<h3>November 2014</h3>
-			<p>My first exciting experience as a coder is the creation of my Resume over a period of weeks.</p>
-		  </div>
-		</div>
-		<div class="gridContainer clearfix" id="skill">
-					  <div id="header">
-						<h1>Skills and Competences</h1>
-					  </div>
-					  <div id="html5">
-						<h3>html5</h3>
-						<p>I began learning code by myself with html5 which I have since extensively read on and coded with to make several web pages including my CV, this CV</p><br>
-						<img src="images/html5.fw.png" alt="html5" title="html5">
-					  </div>
-					  <div id="css3">
-						<h3>css3</h3>
-						<p>I learnt css3 autodidact together with html5 which I ave also used extensively and gotten comfortable using over the last couple of months</p><br>
-						<img src="images/css3.fw.png" alt="css3" title="css3">
-					  </div>
-					  <div id="jquery">
-						<h3>jQuery</h3>
-						<p>I learnt jQuery  before JavaScript with the hopes of easily learning to make my web pages more interactive, which I have successfully done and gotten comfortable using</p>
-						<img src="images/jquery.fw.png" alt="jQuery" title="jQuery">
-					  </div>
-					
-					<div id="javascript">
-						<h3>JavaScript</h3>
-						<p>Its been a long journey with this one, but I have gotten comfortable using it in web pages</p><br><br>
-						<img src="images/javascript.fw.png" alt="JavaScript" title="JavaScript">
-					</div>
-					<div id="bootstrap">
-						<h3>Bootstrap</h3>
-						<p>Bootstrap came to my attention while doing a tutorial and I have used it since to make my web pages more goodlooking with the least amount of code</p><br>
-						<img src="images/bootstrap.fw.png" alt="bootstrap" title="bootstrap">
-					</div>
-					<div id="php5">
-						<h3>PHP5</h3>
-						<p>This also took a while to get used to, but several tutorials later I can -with relative comfort- insert PHP script in my web page</p><br>
-						<img src="images/php5.fw.png" alt="php5">
-					</div>
-					<div id="VBNET">
-						<h3>VB.NET</h3>
-						<p>Also part of my course at NIBS and successfully leant</p><br>
-						<img src="images/vbnet.fw.png" alt="Visual Basic .NET" title="VB.NET">
-					</div>
-					<div id="VB">
-						<h3>VB</h3>
-						<p>The foundation language was Visual Basic 6.0, part of my course at NIBS</p>
-						<img src="images/vb.fw.png" alt="Visual Basic 6.0" title="Visual Basic 6.0">
-					</div>
-					<div id="java">
-						<h3>Java</h3>
-						<p>This was also a part of my course at NIBS, which I successfully learnt</p>
-						<img src="images/java.fw.png" alt="Java" title="Java">
-					</div>
-					<div id="ccc">
-						<h3>C++</h3>
-						<p>I did C++ while in school, and I had a great understanding of how it worked</p>
-						<img src="images/c++.fw.png" alt="c++" title="c++">
-					</div>
-					<div id="sql">
-						<h3>SQL</h3>
-						<p>Also part of my course at NIBS, I successfully learnt it</p><br>
-						<img src="images/sql.fw.png" alt="SQL" title="sql">
-					</div>
-				</div>
-	</div>
-  <div id="strength">
-	<h2>Strengths</h2>
-		<ul class="lists">
-			<li>Intelligent<hr></li>
-			<li>Quick learner<hr></li>
-			<li>Determined<hr></li>
-			<li>Hard Worker<hr></li>
-			<li>Reliable<hr></li>
-			<li>Responsible<hr></li>
-			<li>Honest<hr></li>
-			<li>An eye for detail<hr></li>
-			<li>Quick understanding of new concepts and languages<hr></li>
-			<li>Excellent application of concepts<hr></li>
-		</ul>
-</div>
+
+  <div class="container-fluid bg-grey" id="skills" style="background: url(images/maasai1.jpg); padding: 0;">
+    <div class="row">
+      <div class="col-sm-2">
+        <span class="fa fa-cogs logo slideanim" style="color: #fff;"></span>
+      </div>
+      <div class="col-sm-10 container-fluid" style="background: #fff">
+        <h2 style="text-align:center">Skills</h2><br>
+        <h4>Communication wise, i'm fluent in English (both written and spoken ) and conversational Swahili. Excellent analytical skills and aptitude for self-learning.</h4><br>
+        <p>Below are tools I'm comfortable with.</p>
+
+        <style type="text/css">
+        img.platforms { border: 1px solid #ddd; border-radius: 4px; padding: 5px; }
+        </style>
+
+        <h5>Front-End Technologies</h5>
+        <div>
+         <img src="images/html5.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/css3.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/js.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/jquery.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/ajax.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/bootstrap2.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/logo-angularjs.svg" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/android.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+       <h6>Data Visualizastion tools</h6>
+       <div>
+         <img src="images/chartjs.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/d3.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+       <h6>Mapping tools</h6>
+       <div>
+         <img src="images/leaflet2.png" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/google_map.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+       <h5>Back-End Technologies</h5>
+       <div>
+         <img src="images/php.PNG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/laravel.JPG" class="platforms" alt="Paris" style="height:70px">
+         <img src="images/django.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+       <h5>Database Technologies</h5>
+       <div>
+         <img src="images/mysql.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+       <h5>Version Control Technologies</h5>
+       <div>
+         <img src="images/git.PNG" class="platforms" alt="Paris" style="height:70px">
+       </div>
+
+     </div>
+   </div>
+ </div>
+
+ <!-- Container (Services Section) -->
+ <div id="education" class="container-fluid text-center">
+  <h2>EDUCATION</h2>
+
+  <div class="col-lg-12">
+    <!--timeline start-->
+    <section class="panel">
+      <div class="panel-body">
+
+        <div class="timeline">
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">International University Of East Africa <br>(Kampala, Uganda)</span>          
+                    <span class="right">Jan 2015 - May 2017</span>
+                  </h2>
+                  <p>I have completed my Bachelor of Science in Computer Science degree with a decent average CGPA (Cumulative Grade Point Average) and particularly excellent scores in programming modules.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Nairobi Institute Of Business Studies <br>(Nairobi, Kenya)</span>          
+                    <span class="right">April 2014 - Nov 2014</span>
+                  </h2>
+                  <p>Attained a certificate in computer programming where I received training in C, C++, VB, VB.NET, and Java.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Aga Khan High School Kampala <br>(Kampala, Uganda)</span>          
+                    <span class="right">Feb 2012 – Dec 2013</span>
+                  </h2>
+                  <p>Attained my UACE (A-Level) certificate with a specialization in Mathematics, Chemistry and Physics.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">London College of St. Lawrence <br>(Kampala, Uganda)</span>          
+                    <span class="right">Feb 2009 – Nov 2011</span>
+                  </h2>
+                  <p>Attained my UCE (O-level certificate). Getting 18 points in the final examinations.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">St Austin’s Academy <br>(Nairobi, Kenya)</span>          
+                    <span class="right">Sep 2004 - July 2008</span>
+                  </h2>
+                  <p>Attained my Junior School Certificate.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="clearfix">&nbsp;</div>
+      </div>
+    </section>
+    <!--timeline end-->
+  </div>
+
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="javascripts/inter.js"></script>
-<script src="javascripts/jquery-scrollto.js"></script>
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2>
+  <h4>Here's some of the things I've built(that are available online) and some sample screenshots and descriptions when you click a picture. The extent of my participation is in the experience section below these. </h4>
+  <p>If you see some screenshots here that you don't see live, that's probably because it's an administrator interface and it wouldn't be very ethical to make that public.<br> I'd be happy to show you in person though.</p>
 
+  <div class="slider responsive slideanim">
+
+    <div class="thumbnail">
+      <img src="paris.jpg" alt="Paris" width="400" height="300">
+      <p><strong>CD+</strong></p>
+      <p>Freelance</p>
+    </div>
+    <div class="thumbnail">
+      <img src="newyork.jpg" alt="New York" width="400" height="300">
+      <p><strong>Dorpsfonds Haren</strong></p>
+      <p>BleafIT</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/iway.jpg" alt="San Francisco" width="400" height="300">
+      <p><strong>RoundCube Re-Brand</strong></p>
+      <p>iWay Afirca, Uganda</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/edwaze_quiz.png" alt="Paris" width="400" height="300">
+      <p><strong>EdWaze Quiz</strong></p>
+      <p>EdWaze</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/edwaze.png" alt="Paris" width="400" height="300">
+      <p><strong>EdWaze DUK</strong></p>
+      <p>EdWaze</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/edwaze.png" alt="Paris" width="400" height="300">
+      <p><strong>EdWaze Wisdom</strong></p>
+      <p>EdWaze</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/hra.png" alt="Paris" width="400" height="300">
+      <p><strong>Human Rights Club Website</strong></p>
+      <p>Freelance</p>
+    </div>
+    <div class="thumbnail">
+      <img src="images/resume_pic.png" alt="Paris" width="400" height="300">
+      <p><strong>Online Resume</strong></p>
+      <p>Freelance</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Container (Experience Section) -->
+<div id="experience" class="container-fluid">
+  <div class="text-center">
+    <h2>Experience</h2>
+  </div>
+  <div class="col-lg-12">
+    <!--timeline start-->
+    <section class="panel">
+      <div class="panel-body">
+
+        <div class="timeline">
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Part-Time Web Developer</span>          
+                    <span class="right">March 2017 - May 2017</span>
+                  </h2>
+
+                  <ul class="circle-list">
+                    <li>I worked part time at BleafIT Limited during my final semester of university.</li>
+                    <li>Mainly dealt with developing functional and intuitive front-end designs from mock-ups. This included a real-time statistics module that is based around QR-codes.</li>
+                    <li>A back-end SQL database engine was dealt with when data needed manipulation from the front-end</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Freelance Android Development</span>          
+                    <span class="right">March 2017 - May 2017</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>During my time at BleafIT, I developed a complete android front-end that interacted with ASP.NET back-end web services.</li>
+                      <li>This is my first hosted android application.</li>
+                      <li>The link to the application is CD PLUS (https://play.google.com/store/apps/details?id=com.arkcloudtech.vince.hybridcd&hl=en)</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Internship</span>          
+                    <span class="right">May 2016 - August 2016</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>Had my first internship at iWay Africa Uganda Limited.</li>
+                      <li>Officially, my internship was to go from 30th May – 8th July</li>
+                      <li>Played roles of a System Administrator, Network Engineer and Support Desk Employee. With most time spent doing System Administration and the least time at the Support Desk</li>
+                      <li>On 12th July, my internship period was extended by another 6 – 8 weeks for exceptional work done</li>
+                      <li>Same roles were played as before but with greater responsibility to fix client problems on my own and without supervision at client premises</li>
+                      <li>Some of the work I did included</li>
+                      <ul class="dot-list">
+                        <li>Rebranding of the iWay email portal at Email Portal (http://pop.africaonline.co.ug)</li>
+                        <li>Customer Relationship Manager Software (Bitrix24) launch and maintenance on live iWay servers</li>
+                        <li>Local Area Network design and troubleshoot</li>
+                        <li>Router & Switch configuration</li>
+                        <li>Virtual LAN configuration</li>
+                      </ul>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">EdWaze Web Developer</span>          
+                    <span class="right">September 2015 - Present</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>Got my first chance to work on my first professional project at the beginning of my second year (9 months after my arrival into the University).</li>
+                      <li>Playing all major developer roles i.e. front-end developer, back-end developer, database designer, User Interface designer, User experience among others.</li>
+                      <li>Utilizing the latest of HTML5, CSS3, MySQL, PHP5 as well as JQuery to create dynamic, scalable user-driven applications.</li>
+                      <li>Utilizing Ajax technologies heavily.</li>
+                      <li>Heavily utilizing Git as my version control platform.</li>
+                      <li>Below are the links (currently maintaining Did You Know and Wisdom)</li>
+                      <ul class="dot-list">
+                        <li>EdWaze Quiz (http://www.edwaze.com/oldquiz)</li>
+                        <li>EdWaze DUK (Did You Know) (http://www.edwaze.com/duk)</li>
+                        <li>EdWaze Wisdom (http://www.edwaze.com/wisdom)</li>
+                      </ul>
+                      <li>Refactored EdWaze Quiz to use the Laravel framework to make the application more scalable, more secure and easier to maintain</li>
+                      <li>The Refactored EdWaze quiz link is below</li>
+                      <ul class="dot-list">
+                        <li>EdWaze Quiz (http://www.edwaze.com/quiz)</li>
+                      </ul>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Freelance Web Developer</span>          
+                    <span class="right">April 2014 - Present</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>Began a personal project that was meant to help the university efficiently organize lessons for the semester.</li>
+                      <li>I still work on it from time-to-time.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Freelance Web Developer</span>          
+                    <span class="right">May 2015 – July 2015</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>Developed a website for the Human Rights Association for the International University of East Africa.</li>
+                      <li>The project eventually fell through due to a breakdown in communication.</li>
+                      <li>This project though, gave me my first valuable experience working with clients on a real project.</li>
+                      <li>The link is here (http://vincenthokie.github.io/Human-Rights-2)</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item alt">
+            <div class="timeline-desk">
+              <div class="panel">
+                <div class="panel-body">
+                  <span class="arrow-alt"></span>
+                  <span class="timeline-icon"></span>
+                  <h2 class="header">
+                    <span class="left">Freelance Web Developer</span>          
+                    <span class="right">April 2014 - Present</span>
+                  </h2>
+                  <p>
+                    <ul class="circle-list">
+                      <li>Developed my first web-based resume after learning HTML5 and CSS3 within a span of 4 months.</li>
+                      <li>Got my first taste of Git and all its advantages in application development.</li>
+                      <li>The most recent resume link is below</li>
+                      <ul class="dot-list">
+                        <li>Vincent Resume (http://vincenthokie.github.io)</li>
+                      </ul>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="clearfix">&nbsp;</div>
+      </div>
+    </section>
+    <!--timeline end-->
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Drop an email if you'd like to know more. I'll get back to you soon as I can.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Kampala, UG</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +256 777 053 745</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> vincenthokie@gmail.com</p>	   
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+<div id="googleMap" style="height:400px;width:100%; background: url(images/maasai1.jpg);">
+  <h3 style="text-align: center; height: 20px; color: #fff; padding-top: 150px;">Thanks for taking a look!</h3>
+</div>
+
+<!-- Add Google Maps --
+  <script src="http://maps.googleapis.com/maps/api/js"></script>-->
+  <script>
+  var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+  function initialize() {
+    var mapProp = {
+      center:myCenter,
+      zoom:12,
+      scrollwheel:false,
+      draggable:false,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    var marker = new google.maps.Marker({
+      position:myCenter,
+    });
+
+    marker.setMap(map);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Bootstrap Theme Made By <a href="../index.html" title="Visit w3schools">www.w3schools.com</a></p>		
+  </footer>
+
+  <script>
+  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage'], a.btn").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+    });
+  });
+})
+  </script>
+
+
+  <script src="js/slick.min.js"></script>
+  <script type="text/javascript">
+  $('.responsive').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    lazyLoad: 'ondemand',
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
+  </script>
 </body>
+
+<!-- Mirrored from www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_complete_animation by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Mar 2016 23:53:45 GMT -->
 </html>
