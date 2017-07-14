@@ -1,0 +1,374 @@
+	html
+	{
+	min-width:1230px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	}
+/*****Header begin*******/
+	#names
+	{
+	position:relative;
+	left:90px;
+	color:#2a0094;
+	font-size:50px;
+	display:inline;
+	}
+
+	#dev
+	{
+		background-color:#0a6dbb;
+		position:relative;
+		height:226px;
+		width:70px;
+		font-size:30px;
+		color:black;
+		border-radius:10px;
+		left:10px;
+		bottom:115px;
+		padding-top:110px;
+	}
+	
+	#threelines
+	{
+	position:relative;
+	left:18px;
+	bottom:67px;
+	}
+	
+	.lines
+	{
+	height:2px;
+	width:1220px;
+	background-color:#0a6dbb;
+	position:relative;
+	bottom:50px;
+	margin-top:2px;
+	}
+
+	span
+	{
+	color:white;
+	 font-size:100px;
+	}
+	
+/*****Header end*******/
+
+/*****left portion begin*******/
+	.leftest
+	{
+		position:fixed;
+		width:240px;
+		top:250px;
+		height:390px;
+		z-index:9;
+		border-radius:10px;
+		display:inline;
+	}
+	.left
+	{
+		border-radius:10px;
+		background-color:#0a6dbb;
+		width:50px;
+		height:380px;
+		position:relative;
+		left:-14px;
+	}
+	
+	.lists
+	{
+	color:black;
+	text-align:left;
+	font-size:20px;
+	}
+	
+	.lists li
+	{
+	position:relative;
+	padding-top:7px;
+	left:-10px;
+	}
+	
+	#strength
+	{
+	position:relative;
+	background-color:black;
+	color:white;
+	border-radius:10px;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	height:40px;
+	width:170px;
+	padding:5px;
+	left:40px;
+	bottom:390px;
+	}
+	
+	#inleft
+	{
+		height:280px;
+		width:180px;
+		position:relative;
+		background-color:#f7f7f7;
+		border-radius:10px;
+		left:36px;
+		bottom:395px;
+		}
+/*****left portion end*******/
+
+/*****middle portion begin*******/
+	.pse
+	{
+		height:1350px;
+		width:880px;
+		position:relative;
+		top:225px;
+		right:240px;
+		border-radius:10px;
+		z-index:9;
+		display:inline;
+	}
+
+	.personalprof
+	{
+	height:180px;
+	width:740px;
+	top:27px;
+	border-radius:10px;
+	}
+	
+	.profile
+	{
+		color:white;
+		text-align:center;
+		font-weight:bold;
+		font-size:25px;
+		background-color:black;
+		border-radius:10px;
+		position:relative;
+		height:40px;
+		width:750px;
+	}
+	
+	.align
+	{
+		position:relative;
+		left:50px;
+	}
+	
+	.infodiv
+	{
+		position:relative;
+		background-color:#f7f7f7;
+		color:black;
+		padding:20px;
+		font-size:15px;
+		left:7px;
+	}
+	
+	#profile
+	{
+		left:20px;
+		height:120px;
+		width:700px;
+	}
+
+	.skilldiv
+	{
+		top:40px;
+		width:740px;
+		height:250px;
+		border-radius:10px;
+	}
+	
+	.skills
+	{
+		height:235px;
+		width:720px;
+		left:10px;
+	}
+
+	.education
+	{
+		height:860px;
+		width:735px;
+		border-radius:10px;
+		position:relative;
+		top:100px;
+	}
+
+	#school
+	{
+		height:840px;
+		width:720px;
+		padding:20px;
+	}
+	
+	.length
+	{
+		background-color:#4d4e53;
+		position:relative;
+		height:40px;
+		width:230px;
+		border-radius:10px;
+		color:white;
+		padding:10px;
+		text-align:centre;
+	}
+	
+	.head3
+	{
+		font-weight:bold;
+		position:relative;
+		left:30px;
+	}
+	
+	.schhols
+	{
+		font-size:20px;
+		font-weight:bold;
+		position:relative;
+		left:40px;
+	}
+	
+	#foundation
+	{
+	position:relative;
+	left:50px;
+	font-size:15px;
+	}
+	
+	/*****middle portion begin*******/
+	
+	/*****right portion begin*******/
+	#side
+	{
+	position:relative;
+	right:-155px;
+	top:300px;
+	bottom:-300px;
+	z-index:9;
+	height:240px;
+	width:40px;
+	}
+	
+	.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	position:relative;
+	right:-25px;
+	top:20px;
+	}
+	.sidebtns
+	{
+		font-weight:bold;
+		position:relative;
+		right:-10px;
+		background-color:#0a6dbb;
+		color:white;
+		width:30px;
+		height:100px;
+		border-radius:10px;
+	}
+	
+	.clicked
+	{
+	}
+	
+	#links
+	{
+	background-color:#0a6dbb;
+	position:relative;
+	right:-35px;
+	top:-30px;
+	border-radius:10px;
+	width:50px;
+	height:100px;
+	}
+	
+	#info
+	{
+	position:relative;
+	background-color:#0a6dbb;
+	padding:10px 10px 10px 10px;
+	width:240px;
+	height:130px;
+	text-align:left;
+	right:-35px;
+	top:-30px;
+	border-radius:10px;
+	}
+	
+	#social
+	{
+	top:50px;
+	}
+	
+	#contact
+	{
+	top:10px;
+	}
+	
+	footer
+	{
+		position:relative;
+		background-color:black;
+		height:50px;
+		border-radius:10px;
+		bottom:-390px;
+		color:white;
+		font-weight:bold;
+		padding-top:10px;
+		text-align:center;
+	}
+	
+	 a
+	 {
+	 text-decoration:none;
+	 position:relative;
+	 color:white;
+	 display:inline;
+	 border:4px solid white;
+	 border-radius:30px;
+	 top:15px;
+	 left:7px;
+	 font-weight:bold;
+	 }
+	 
+	 #faceb
+	 {
+	 padding:5px 10px 5px 10px;
+	 font-family:Tahoma;
+	 }
+
+	 
+	 #faceb:hover
+	 {
+		text-decoration:none;
+		border-color:#3B5998;
+		color:#3B5998;
+		cursor:pointer;
+	 }
+	 
+	 #twirra
+	 {
+	 font-size:20px;
+	 padding:3px 10px 3px 10px;
+	 font-family:Gotham;
+	 top:30px;
+	 }
+
+	 #twirra:hover
+	 {
+	 text-decoration:none;
+	 color:#4099FF;
+	 border-color:#4099FF;
+	cursor:pointer;
+	 }
+	 
+	 img
+	 {
+	 width:30px;
+	 height:30px;
+	 }
+/*****right portion end*******/
